@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
 <!-- defines the DTD to use with this XML file -->
 <!-- a DTD defines the document structure with a list of legal elements and attributes -->
 <!-- <!DOCTYPE CATALOG SYSTEM "catalog.dtd"> -->
 <!-- root element -->
-<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="catalog.xsd">
+<!-- <CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="catalog.xsd"> -->
+<CATALOG>
     <!-- branch -->
     <CD>
         <!-- leaf -->

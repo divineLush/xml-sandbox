@@ -15,7 +15,7 @@
         <COST>5.99</COST>
         <YEAR>1973</YEAR>
     </CD>
-    <CD>
+    <CD genre="blues-rock">
         <TITLE>Houses of the Holy</TITLE>
         <ARTIST>Led Zeppelin</ARTIST>
         <COUNTRY>USA</COUNTRY>
@@ -43,4 +43,5 @@
         <COST>5.99</COST>
         <YEAR>1990</YEAR>
     </CD>
+<COPYRIGHT>&c;</COPYRIGHT>
 </CATALOG>

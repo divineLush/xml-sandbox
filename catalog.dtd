@@ -1,4 +1,4 @@
-<!ELEMENT CATALOG (CD*)>
+<!ELEMENT CATALOG (CD*, COPYRIGHT)>
     <!ELEMENT CD (TITLE,ARTIST,COUNTRY,COMPANY,PRICE?,COST,YEAR,INVENTORY?,BIN?)>
     <!ATTLIST CD genre CDATA #IMPLIED>
     <!ELEMENT TITLE (#PCDATA)>
@@ -12,3 +12,4 @@
     <!ELEMENT BIN (#PCDATA)>
     <!ENTITY cn "Rock Classics, Ltd.">
     <!ENTITY c "Copyright &cn; All Rights Reserved.">
+    <!ELEMENT COPYRIGHT (#PCDATA)>

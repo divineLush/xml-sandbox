@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <!-- defines the DTD to use with this XML file -->
 <!-- a DTD defines the document structure with a list of legal elements and attributes -->
-<!DOCTYPE CATALOG SYSTEM "catalog.dtd">
+<!-- <!DOCTYPE CATALOG SYSTEM "catalog.dtd"> -->
 <!-- root element -->
-<CATALOG>
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="catalog.xsd">
     <!-- branch -->
-    <CD genre="art-rock">
+    <CD>
         <!-- leaf -->
         <TITLE>The Dark Side of the Moon</TITLE>
         <ARTIST>Pink Floyd</ARTIST>
@@ -15,7 +16,7 @@
         <COST>5.99</COST>
         <YEAR>1973</YEAR>
     </CD>
-    <CD genre="blues-rock">
+    <CD>
         <TITLE>Houses of the Holy</TITLE>
         <ARTIST>Led Zeppelin</ARTIST>
         <COUNTRY>USA</COUNTRY>
@@ -38,10 +39,10 @@
         <ARTIST>Gary Moore</ARTIST>
         <COUNTRY>UK</COUNTRY>
         <COMPANY>Virgin records</COMPANY>
-        <!-- PRICE is optional as we specified PRICE? in dtd -->
-        <!-- <PRICE>10.20</PRICE> -->
+        <PRICE>10.20</PRICE>
         <COST>5.99</COST>
         <YEAR>1990</YEAR>
     </CD>
-<COPYRIGHT>&c;</COPYRIGHT>
+<!-- DTD entity -->
+<!-- <COPYRIGHT>&c;</COPYRIGHT> -->
 </CATALOG>

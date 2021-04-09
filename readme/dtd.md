@@ -1,8 +1,10 @@
 DTD (Document Type Declaration)
 
+
 Specifies the name of the document element.
 Specifies an internal/external DTD.
 The purpose of DTD is to define the legal building blocks of an XML document.
+Not the best solution for describing XML documents as they limit our expressiveness in describing the XML data.
 
 An internal DTD id declared inside the XML file within a DOCTYPE definition:
 <!DOCTYPE customer[

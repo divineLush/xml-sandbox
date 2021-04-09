@@ -5,7 +5,7 @@
 <!-- root element -->
 <CATALOG>
     <!-- branch -->
-    <CD>
+    <CD genre="art-rock">
         <!-- leaf -->
         <TITLE>The Dark Side of the Moon</TITLE>
         <ARTIST>Pink Floyd</ARTIST>
